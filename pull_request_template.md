@@ -2,7 +2,7 @@
 - [ ] Refactor JS
 - [ ] Refactor CSS
 - [ ] Add Feature
-- [ ]Bug Fix
+- [ ] Bug Fix
 - [ ] Optimization
 - [ ] Documentation Update
 - [ ] Add File(s)
