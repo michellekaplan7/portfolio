@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import Scroll from "react-scroll";
 import useWindowSize from "../../hooks/useWindowSize";
-import HamburgerMenu from "../HamburgerMenu/HamburgerMenu";
 import logo from "../../assets/images/test_logo.jpg";
 
 const Link = Scroll.Link;
 const scrollDuration = 600;
 
 const DesktopNav = () => {
+  // eslint-disable-next-line no-unused-vars
   const [links, setLinks] = useState([
     {
       id: 1,
@@ -52,6 +52,7 @@ const DesktopNav = () => {
         >
           <img src={logo} alt="logo" className="nav-container__logo" />
         </Link>
+
         {links.map((link) => {
           return (
             <Link
@@ -76,22 +77,23 @@ const DesktopNav = () => {
 const MobileNav = () => {
   return (
     <div className="nav-container">
-      <Link
-        className="nav-container__link nav-container__link--logo"
-        to="#"
-        smooth={true}
-        duration={scrollDuration}
-      >
-        <img src={logo} alt="logo" className="nav-container__logo" />
-      </Link>
-      <HamburgerMenu />
+      <nav className="nav-container__nav">
+        <Link
+          className="nav-container__link nav-container__link--logo"
+          to="#"
+          smooth={true}
+          duration={scrollDuration}
+        >
+          <img src={logo} alt="logo" className="nav-container__logo" />
+        </Link>
+      </nav>
     </div>
   );
 };
 
 const Nav = () => {
   const size = useWindowSize();
-  if (size.width > 640) {
+  if (size.width > 600) {
     return <DesktopNav />;
   }
   return <MobileNav />;
