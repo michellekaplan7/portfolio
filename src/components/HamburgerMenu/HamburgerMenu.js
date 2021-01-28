@@ -5,6 +5,10 @@ const Link = Scroll.Link;
 const scrollDuration = 600;
 
 const HamburgerMenu = () => {
+  const closeNav = () => {
+    document.getElementById("navi-toggle").checked = false;
+  };
+
   return (
     <div className="navigation">
       <input
@@ -24,10 +28,12 @@ const HamburgerMenu = () => {
               to="about"
               smooth={true}
               duration={scrollDuration}
+              onClick={() => closeNav()}
             >
               <span>01</span>About
             </Link>
           </li>
+
           <li className="navigation__item">
             <Link
               className="navigation__link"
