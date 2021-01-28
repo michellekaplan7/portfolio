@@ -1,10 +1,21 @@
 import React from "react";
+import Scroll from "react-scroll";
+
 import Particle from "../Particle/Particle";
+
+//resumeData
+import { resumeData } from "../../helpers/resumeData";
 
 //icons
 import linkedIn from "../../assets/images/linkedin-icon.svg";
 import gitHub from "../../assets/images/github-icon.svg";
 import resumeIcon from "../../assets/images/resume-icon.svg";
+
+//resume
+import resume from "../../assets/images/michelle_kaplan_resume.pdf";
+
+const Link = Scroll.Link;
+const scrollDuration = 600;
 
 const Header = () => {
   return (
@@ -21,7 +32,7 @@ const Header = () => {
         <a
           rel="noopener noreferrer"
           aria-label="github profile"
-          href="https://github.com/michellekaplan7"
+          href={resumeData.gitHubURL}
           target="_blank"
         >
           <img alt="Github icon" src={gitHub} className="social-icon" />
@@ -30,7 +41,7 @@ const Header = () => {
         <a
           rel="noopener noreferrer"
           aria-label="linkedIn profile"
-          href="https://www.linkedin.com/in/kaplanmichelle/"
+          href={resumeData.linkedInURL}
           target="_blank"
         >
           <img alt="LinkedIn icon" src={linkedIn} className="social-icon" />
@@ -39,7 +50,7 @@ const Header = () => {
         <a
           rel="noopener noreferrer"
           aria-label="resume"
-          // href
+          href={resume}
           target="_blank"
         >
           <img alt="Resume" src={resumeIcon} className="social-icon" />
@@ -47,7 +58,9 @@ const Header = () => {
       </div>
 
       <div className="down-arrow-container">
-        <button aria-label="scroll down" className="down-arrow"></button>
+        <Link to="about" smooth={true} duration={scrollDuration}>
+          <button aria-label="scroll down" className="down-arrow"></button>
+        </Link>
       </div>
     </header>
   );

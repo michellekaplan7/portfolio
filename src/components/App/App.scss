@@ -4,4 +4,12 @@
 @import "../Nav/Nav";
 @import "../HamburgerMenu/HamburgerMenu";
 @import "../Header/Header";
+@import "../About/About";
 @import "../Particle/Particle";
+
+.section-heading {
+  text-align: center;
+  font-size: 3rem;
+  padding: 9rem 0 0 0;
+  font-family: "Ubuntu Mono";
+}
