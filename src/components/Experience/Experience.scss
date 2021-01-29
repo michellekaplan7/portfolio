@@ -1,0 +1,14 @@
+.experience {
+  background-color: $color-tertiary-light;
+
+  &__content {
+    &--subheading {
+      margin: 4rem 0 4rem 0;
+      font-size: 2rem;
+      text-transform: uppercase;
+      margin-left: 4rem;
+      border-bottom: 1px solid black;
+      display: inline-block;
+    }
+  }
+}
