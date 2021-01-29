@@ -12,9 +12,8 @@
     }
 
     &--picture {
+      @include circleImg;
       height: 20rem;
-      border-radius: 50%;
-      margin-right: 5rem;
 
       @include respond(tab-port) {
         margin: 6rem auto;
