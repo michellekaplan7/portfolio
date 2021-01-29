@@ -1,0 +1,61 @@
+.education {
+  display: flex;
+  flex-direction: column;
+
+  &__content {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 22px;
+    width: 75rem;
+    height: 25rem;
+
+    @media only screen and (max-width: 625px) {
+      width: 60rem;
+    }
+
+    @media only screen and (max-width: 500px) {
+      width: 50rem;
+    }
+
+    @media only screen and (max-width: 420px) {
+      width: 40rem;
+    }
+
+    @media only screen and (max-width: 340px) {
+      width: 33rem;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 3rem;
+    }
+
+    &--text {
+      text-align: center;
+
+      h3 {
+        font-size: 2rem;
+      }
+      h4 {
+        font-size: 1.5rem;
+        margin-top: 1rem;
+      }
+    }
+
+    &--logo {
+      @include circleImg;
+      height: 15rem;
+
+      @include respond(phone) {
+        height: 12rem;
+        margin-right: 2rem;
+      }
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
