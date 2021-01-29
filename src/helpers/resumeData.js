@@ -1,3 +1,9 @@
+// logos
+import turingLogo from "../assets/images/turing-school-logo.png";
+import csuLogo from "../assets/images/colorado-state-university-logo.jpeg";
+import nannoLogo from "../assets/images/nanno-logo.png";
+import cochlearLogo from "../assets/images/cochlear-americas-logo.jpg";
+
 export const resumeData = {
   gitHubURL: "https://github.com/michellekaplan7",
   linkedInURL: "https://www.linkedin.com/in/kaplanmichelle",
@@ -14,21 +20,31 @@ export const resumeData = {
   },
   education: [
     {
+      id: 1,
       school: "Turing School of Software & Design",
       major: "Front End Engineering",
       time: "January 2020 - August 2020",
       location: "Denver, CO - Remote",
+      logo: turingLogo,
+      link: "https://turing.io/",
     },
     {
+      id: 2,
       school: "Colorado State University",
       major: "B.S. Business Administration, Marketing",
       time: "August 2013 - December 2016",
       location: "Fort Collins, CO",
+      logo: csuLogo,
+      link: "https://www.colostate.edu/",
     },
   ],
   work: [
     {
+      id: 3,
       name: "Nanno",
+      location: "Denver, CO - Remote",
+      logo: nannoLogo,
+      link: "https://www.nanno.com/",
       position: "Software Engineer",
       time: "September 2020 - December 2020",
       description: [
@@ -41,7 +57,11 @@ export const resumeData = {
       ],
     },
     {
+      id: 4,
       name: "Cochlear Americas",
+      location: "Centennial, CO",
+      logo: cochlearLogo,
+      link: "https://www.cochlear.com/us/en/home",
       position: "Marketing Specialist",
       time: "July 2018 - October 2019",
       description: [
@@ -52,7 +72,11 @@ export const resumeData = {
       ],
     },
     {
+      id: 5,
       name: "Cochlear Americas",
+      location: "Centennial, CO",
+      logo: cochlearLogo,
+      link: "https://www.cochlear.com/us/en/home",
       position: "Marketing Coordinator",
       time: "September 2017 - July 2018",
       description: [
