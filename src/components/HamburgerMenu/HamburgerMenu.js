@@ -40,6 +40,7 @@ const HamburgerMenu = () => {
               to="experience"
               smooth={true}
               duration={scrollDuration}
+              onClick={() => closeNav()}
             >
               <span>02</span>Experience
             </Link>
@@ -50,6 +51,7 @@ const HamburgerMenu = () => {
               to="projects"
               smooth={true}
               duration={scrollDuration}
+              onClick={() => closeNav()}
             >
               <span>03</span>Projects
             </Link>
@@ -60,6 +62,7 @@ const HamburgerMenu = () => {
               to="contact"
               smooth={true}
               duration={scrollDuration}
+              onClick={() => closeNav()}
             >
               <span>04</span>Contact
             </Link>
