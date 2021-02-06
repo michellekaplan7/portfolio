@@ -2,6 +2,7 @@ import React from "react";
 
 import WorkCard from "../WorkCard/WorkCard";
 import EducationCard from "../EducationCard/EducationCard";
+import Skills from "../Skills/Skills";
 
 import Scroll from "react-scroll";
 const Element = Scroll.Element;
@@ -24,6 +25,7 @@ const Experience = () => {
 
           <div className="experience__content--skills">
             <h3 className="experience__content--subheading">Skills</h3>
+            <Skills />
           </div>
         </div>
       </section>
