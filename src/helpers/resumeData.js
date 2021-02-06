@@ -85,4 +85,90 @@ export const resumeData = {
       ],
     },
   ],
+  techSkills: [
+    {
+      id: 6,
+      name: "JavaScript",
+    },
+    {
+      id: 7,
+      name: "React",
+    },
+    {
+      id: 8,
+      name: "React Hooks",
+    },
+    {
+      id: 9,
+      name: "Redux",
+    },
+    {
+      id: 10,
+      name: "Fetch API",
+    },
+    {
+      id: 11,
+      name: "REST API",
+    },
+    {
+      id: 12,
+      name: "Jest",
+    },
+    {
+      id: 13,
+      name: "React Testing Library",
+    },
+    {
+      id: 14,
+      name: "Mocha",
+    },
+    {
+      id: 15,
+      name: "Chai",
+    },
+    {
+      id: 16,
+      name: "Git",
+    },
+    {
+      id: 17,
+      name: "GitHub",
+    },
+    {
+      id: 18,
+      name: "CSS3",
+    },
+    {
+      id: 19,
+      name: "SCSS",
+    },
+    {
+      id: 20,
+      name: "HTML5",
+    },
+    {
+      id: 21,
+      name: "Agile",
+    },
+    {
+      id: 22,
+      name: "jQuery",
+    },
+    {
+      id: 23,
+      name: "UX/UI",
+    },
+    {
+      id: 24,
+      name: "Responsive web design",
+    },
+    {
+      id: 25,
+      name: "Web accessibility",
+    },
+    {
+      id: 26,
+      name: "Npm / Yarn",
+    },
+  ],
 };
