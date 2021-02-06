@@ -1,0 +1,84 @@
+.work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__content {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 22px;
+    width: 75rem;
+    padding: 4rem;
+    position: relative;
+
+    @media only screen and (max-width: 640px) {
+      width: 62rem;
+    }
+
+    @media only screen and (max-width: 620px) {
+      width: 58rem;
+    }
+
+    @media only screen and (max-width: 490px) {
+      width: 50rem;
+    }
+
+    @media only screen and (max-width: 420px) {
+      width: 40rem;
+    }
+
+    @media only screen and (max-width: 340px) {
+      width: 35rem;
+    }
+
+    @media only screen and (max-width: 340px) {
+      width: 32rem;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 3rem;
+    }
+
+    &--logo {
+      @include circleImg;
+      height: 15rem;
+      position: absolute;
+      top: 10px;
+      right: 0;
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      @media only screen and (max-width: 420px) {
+        height: 10rem;
+      }
+
+      @media only screen and (max-width: 340px) {
+        right: -28px;
+      }
+    }
+
+    &--text {
+      h3 {
+        font-size: 2rem;
+      }
+
+      h4 {
+        font-size: 1.5rem;
+        margin: 2rem 0;
+      }
+
+      &-list {
+        li {
+          font-size: 1.4rem;
+
+          &:not(:last-child) {
+            margin-bottom: 1rem;
+          }
+        }
+      }
+    }
+  }
+}

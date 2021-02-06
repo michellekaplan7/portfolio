@@ -12,6 +12,11 @@
   transform: translate(-50%, -50%);
 }
 
+@mixin circleImg {
+  border-radius: 50%;
+  margin-right: 5rem;
+}
+
 // MEDIA QUERY MANAGER
 /*
 0 - 600px:      Phone

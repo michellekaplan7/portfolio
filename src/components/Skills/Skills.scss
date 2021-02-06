@@ -1,0 +1,47 @@
+.skills {
+  display: flex;
+  flex-direction: column;
+  &__content {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 22px;
+    width: 75rem;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    @media only screen and (max-width: 625px) {
+      width: 60rem;
+    }
+
+    @media only screen and (max-width: 500px) {
+      width: 50rem;
+    }
+
+    @media only screen and (max-width: 420px) {
+      width: 40rem;
+    }
+
+    @media only screen and (max-width: 340px) {
+      width: 33rem;
+    }
+
+    &--item {
+      background: blue;
+      height: 4rem;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 1rem;
+      padding: 2rem;
+
+      h4 {
+        font-size: 1.5rem;
+        color: white;
+      }
+    }
+  }
+}
