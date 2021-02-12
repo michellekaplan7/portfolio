@@ -9,7 +9,7 @@ const Skills = () => {
       <div className="skills__content">
         {resumeData.techSkills.map((skill) => {
           return (
-            <div className="skills__content--item">
+            <div className="skills__content--item" key={skill.id}>
               <h4>{skill.name}</h4>
             </div>
           );
