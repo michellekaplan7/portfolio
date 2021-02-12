@@ -1,0 +1,20 @@
+.projects {
+  background-color: rgba(143, 172, 211, 0.95);
+  padding: 0 15rem 4rem 15rem;
+
+  &__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    margin-top: 3rem;
+
+    @media only screen and (max-width: 1200px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media only screen and (max-width: 800px) {
+      grid-template-columns: repeat(1, 1fr);
+      grid-row-gap: 3rem;
+    }
+  }
+}
