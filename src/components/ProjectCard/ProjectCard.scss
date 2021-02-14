@@ -1,0 +1,130 @@
+.project {
+  &__content {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 0 5px 6px rgba(113, 140, 175, 0.75);
+    color: #212121;
+    text-shadow: 0 0;
+    height: 100%;
+    transition: 200ms;
+
+    &:hover {
+      transform: scale(1.03);
+      box-shadow: 0 5px 16px #5b6e8e;
+    }
+
+    &--image {
+      position: relative;
+
+      &--cover-overlay {
+        position: absolute;
+        z-index: 20;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #8caad2;
+        mix-blend-mode: hard-light;
+        opacity: 0.5;
+        transition: 200ms;
+      }
+
+      &--screenshot {
+        display: block;
+        width: 100%;
+        filter: grayscale(1);
+        transition: 200ms;
+      }
+    }
+
+    &--text {
+      padding: 1.4rem;
+      font-weight: 300;
+      border-top: 1px solid #ddd;
+
+      &--project-name {
+        font-size: 2rem;
+        font-weight: 600;
+        margin: 0;
+      }
+
+      &--links {
+        margin-top: 0.5rem;
+        font-weight: 400;
+        font-size: 1.4rem;
+        color: #5c7ca8;
+
+        a {
+          text-decoration: none;
+          border-bottom: 1px solid transparent;
+          color: #5c7ca8;
+          transition: 200ms;
+
+          &:hover {
+            border-color: #5c7ca8;
+          }
+        }
+      }
+    }
+
+    &--description {
+      margin-top: 1.5rem;
+      font-size: 1.4rem;
+    }
+
+    &--skillsList {
+      &-skill {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      &-skill div {
+        color: $color-white;
+        background-color: $color-black;
+        padding: 1rem;
+        height: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        margin: 1rem;
+        font-size: 1.3rem;
+      }
+    }
+  }
+}
+
+.project__content:hover .project__content--image--screenshot {
+  filter: grayscale(0);
+}
+
+.project__content:hover .project__content--image--cover-overlay {
+  opacity: 0;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .project__content--image--cover-overlay {
+    opacity: 0;
+  }
+  .project__content:hover {
+    transform: scale(1);
+    box-shadow: 0 5px 6px rgba(113, 140, 175, 0.75);
+  }
+  .project__content--image--screenshot {
+    filter: grayscale(0);
+  }
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+  .project__content--image--cover-overlay {
+    opacity: 0;
+  }
+  .project__content:hover {
+    transform: scale(1);
+    box-shadow: 0 5px 6px rgba(113, 140, 175, 0.75);
+  }
+  .project__content--image--screenshot {
+    filter: grayscale(0);
+  }
+}

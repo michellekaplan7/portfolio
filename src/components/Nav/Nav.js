@@ -17,14 +17,14 @@ const DesktopNav = () => {
     },
     {
       id: 2,
-      name: "Experience",
-      to: "experience",
+      name: "Projects",
+      to: "projects",
       className: "nav-container__link",
     },
     {
       id: 3,
-      name: "Projects",
-      to: "projects",
+      name: "Experience",
+      to: "experience",
       className: "nav-container__link",
     },
     {

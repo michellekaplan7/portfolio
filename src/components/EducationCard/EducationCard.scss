@@ -1,31 +1,14 @@
 .education {
-  display: flex;
-  flex-direction: column;
-
   &__content {
     display: flex;
     align-items: center;
-    margin: 0 auto;
-    background-color: white;
+    background-color: $color-white;
     padding: 2rem;
     border-radius: 22px;
-    width: 75rem;
-    height: 25rem;
+    flex-direction: row-reverse;
 
-    @media only screen and (max-width: 625px) {
-      width: 60rem;
-    }
-
-    @media only screen and (max-width: 500px) {
-      width: 50rem;
-    }
-
-    @media only screen and (max-width: 420px) {
-      width: 40rem;
-    }
-
-    @media only screen and (max-width: 340px) {
-      width: 33rem;
+    @media only screen and (max-width: 415px) {
+      flex-direction: column;
     }
 
     &:not(:last-child) {
@@ -33,7 +16,7 @@
     }
 
     &--text {
-      text-align: center;
+      margin: 0 auto 0 1rem;
 
       h3 {
         font-size: 2rem;
@@ -42,15 +25,24 @@
         font-size: 1.5rem;
         margin-top: 1rem;
       }
+
+      @media only screen and (max-width: 415px) {
+        text-align: center;
+        margin: 0;
+      }
     }
 
     &--logo {
-      @include circleImg;
-      height: 15rem;
+      height: 12rem;
+      border-radius: 50%;
 
       @include respond(phone) {
         height: 12rem;
         margin-right: 2rem;
+      }
+
+      @media only screen and (max-width: 415px) {
+        margin: 0 auto;
       }
 
       &:hover {
