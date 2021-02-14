@@ -80,8 +80,8 @@
       }
 
       &-skill div {
-        color: white;
-        background-color: black;
+        color: $color-white;
+        background-color: $color-black;
         padding: 1rem;
         height: 3rem;
         display: flex;
@@ -103,28 +103,28 @@
   opacity: 0;
 }
 
-// @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
-//   .color-overlay {
-//     opacity: 0;
-//   }
-//   .project-card:hover {
-//     transform: scale(1);
-//     box-shadow: 0 5px 6px rgba(113, 140, 175, 0.75);
-//   }
-//   .screenshot {
-//     filter: grayscale(0);
-//   }
-// }
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .project__content--image--cover-overlay {
+    opacity: 0;
+  }
+  .project__content:hover {
+    transform: scale(1);
+    box-shadow: 0 5px 6px rgba(113, 140, 175, 0.75);
+  }
+  .project__content--image--screenshot {
+    filter: grayscale(0);
+  }
+}
 
-// @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
-//   .color-overlay {
-//     opacity: 0;
-//   }
-//   .project-card:hover {
-//     transform: scale(1);
-//     box-shadow: 0 5px 6px rgba(113, 140, 175, 0.75);
-//   }
-//   .screenshot {
-//     filter: grayscale(0);
-//   }
-// }
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+  .project__content--image--cover-overlay {
+    opacity: 0;
+  }
+  .project__content:hover {
+    transform: scale(1);
+    box-shadow: 0 5px 6px rgba(113, 140, 175, 0.75);
+  }
+  .project__content--image--screenshot {
+    filter: grayscale(0);
+  }
+}
