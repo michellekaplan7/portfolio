@@ -46,7 +46,7 @@ const DesktopNav = () => {
       <nav className="nav-container__nav">
         <Link
           className="nav-container__link nav-container__link--logo"
-          to="#"
+          to="header"
           smooth={true}
           duration={scrollDuration}
         >
