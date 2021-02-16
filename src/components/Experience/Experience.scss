@@ -1,13 +1,15 @@
 .experience {
-  background-color: $color-tertiary-light;
+  background-color: $color-grey;
 
   &__content {
     &--subheading {
       margin: 4rem 0 4rem 0;
       font-size: 2rem;
       text-transform: uppercase;
-      border-bottom: 1px solid $color-black;
+      border: 1px solid $color-black;
       display: inline-block;
+      border-radius: 10px;
+      padding: 1rem;
     }
   }
 }
