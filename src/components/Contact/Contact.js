@@ -27,7 +27,7 @@ const Contact = () => {
       id,
       title: "Sent",
       description: "Thank you for your message!",
-      backgroundColor: "#5cb85c",
+      backgroundColor: "$color-success",
       icon: checkIcon,
     };
 
@@ -74,7 +74,7 @@ const Contact = () => {
         </div>
 
         <form onSubmit={sendEmail} className="contact__form">
-          <label htmlFor="name">Name</label>
+          <label htmlFor="user_name">Name</label>
           <input
             required
             id="user_name"
@@ -85,7 +85,7 @@ const Contact = () => {
             onChange={(e) => setMessage({ ...message, name: e.target.value })}
           />
 
-          <label htmlFor="email">Email</label>
+          <label htmlFor="user_email">Email</label>
           <input
             required
             id="user_email"
