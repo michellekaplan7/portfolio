@@ -56,3 +56,21 @@
     transform: scale(1.3);
   }
 }
+
+@-webkit-keyframes toast-in-right {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes toast-in-right {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
