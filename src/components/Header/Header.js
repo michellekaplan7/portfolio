@@ -28,7 +28,7 @@ const Header = () => {
           <h1>Kaplan</h1>
         </div>
         <div className="scale-in-center-second welcome" id="industry-container">
-          <h4 className="sub-heading">Software Engineer</h4>
+          <h2 className="sub-heading">Software Engineer</h2>
         </div>
         <div className="social-icons-container">
           <a
