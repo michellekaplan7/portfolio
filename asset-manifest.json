@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6301f175.chunk.css",
+    "main.js": "/static/js/main.7fb72ac7.chunk.js",
+    "main.js.map": "/static/js/main.7fb72ac7.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.476bbc98.js",
+    "runtime-main.js.map": "/static/js/runtime-main.476bbc98.js.map",
+    "static/js/2.ffac3af7.chunk.js": "/static/js/2.ffac3af7.chunk.js",
+    "static/js/2.ffac3af7.chunk.js.map": "/static/js/2.ffac3af7.chunk.js.map",
+    "static/js/3.7370d89f.chunk.js": "/static/js/3.7370d89f.chunk.js",
+    "static/js/3.7370d89f.chunk.js.map": "/static/js/3.7370d89f.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.6301f175.chunk.css.map": "/static/css/main.6301f175.chunk.css.map",
+    "static/js/2.ffac3af7.chunk.js.LICENSE.txt": "/static/js/2.ffac3af7.chunk.js.LICENSE.txt",
+    "static/media/check.d639b7bb.svg": "/static/media/check.d639b7bb.svg",
+    "static/media/cochlear-americas-logo.721f09f6.jpg": "/static/media/cochlear-americas-logo.721f09f6.jpg",
+    "static/media/colorado-state-university-logo.8a97d8c8.jpeg": "/static/media/colorado-state-university-logo.8a97d8c8.jpeg",
+    "static/media/App.scss": "/static/media/down-arrow.f7c5c3a4.svg",
+    "static/media/find-my-market.a15333d7.png": "/static/media/find-my-market.a15333d7.png",
+    "static/media/github-icon.7568b3f8.svg": "/static/media/github-icon.7568b3f8.svg",
+    "static/media/linkedin-icon.cba6eefe.svg": "/static/media/linkedin-icon.cba6eefe.svg",
+    "static/media/michelle-kaplan-portfolio.0c9f66f0.png": "/static/media/michelle-kaplan-portfolio.0c9f66f0.png",
+    "static/media/michelle_kaplan_profile_picture.6317b564.jpg": "/static/media/michelle_kaplan_profile_picture.6317b564.jpg",
+    "static/media/michelle_kaplan_resume.a5588843.pdf": "/static/media/michelle_kaplan_resume.a5588843.pdf",
+    "static/media/resume-icon.d25a307d.svg": "/static/media/resume-icon.d25a307d.svg",
+    "static/media/turing-school-logo.e0dabd45.png": "/static/media/turing-school-logo.e0dabd45.png",
+    "static/media/vacation-rentals-around-denver.1fb1ce22.png": "/static/media/vacation-rentals-around-denver.1fb1ce22.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.476bbc98.js",
+    "static/js/2.ffac3af7.chunk.js",
+    "static/css/main.6301f175.chunk.css",
+    "static/js/main.7fb72ac7.chunk.js"
+  ]
+}
