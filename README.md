@@ -1,8 +1,7 @@
 # Michelle Kaplan's Portfolio Website
 
-![mk-logo](https://user-images.githubusercontent.com/56200182/108272658-c8ba8280-712f-11eb-9ea7-79e9d16984bf.png =250x)
-
 A fully responsive website that showcases my projects and experience.
+
 ## Link to Live Site
 - [Click here!](https://michellekaplan.dev)
 
