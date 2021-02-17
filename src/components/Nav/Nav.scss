@@ -16,7 +16,8 @@
   }
 
   &__logo {
-    width: 6rem;
+    width: 5rem;
+    margin-left: 2rem;
   }
 
   &__link {
@@ -47,7 +48,7 @@
   }
 }
 
-.active_link {
+.active {
   border-bottom: 2px solid $color-primary;
   color: $color-primary;
   padding-bottom: 3px;
