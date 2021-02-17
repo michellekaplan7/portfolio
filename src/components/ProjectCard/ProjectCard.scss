@@ -2,7 +2,7 @@
   &__content {
     display: flex;
     flex-direction: column;
-    background-color: #fff;
+    background-color: $color-white;
     box-shadow: 0 5px 6px rgba(113, 140, 175, 0.75);
     color: #212121;
     text-shadow: 0 0;
@@ -53,16 +53,16 @@
         margin-top: 0.5rem;
         font-weight: 400;
         font-size: 1.4rem;
-        color: #5c7ca8;
+        color: $color-primary;
 
         a {
           text-decoration: none;
           border-bottom: 1px solid transparent;
-          color: #5c7ca8;
+          color: $color-primary;
           transition: 200ms;
 
           &:hover {
-            border-color: #5c7ca8;
+            border-color: $color-primary;
           }
         }
       }

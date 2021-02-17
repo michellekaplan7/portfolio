@@ -25,10 +25,10 @@ const Header = () => {
         <Particle />
         <div className="scale-in-center welcome" id="name-container">
           <h1 className="first-name">Michelle</h1>
-          <h1>Kaplan</h1>
+          <h1 className="last-name">Kaplan</h1>
         </div>
         <div className="scale-in-center-second welcome" id="industry-container">
-          <h4 className="sub-heading">Software Engineer</h4>
+          <h2 className="sub-heading">Software Engineer</h2>
         </div>
         <div className="social-icons-container">
           <a

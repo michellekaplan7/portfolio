@@ -1,0 +1,44 @@
+.notification-container {
+  font-size: 1.4rem;
+  position: fixed;
+}
+
+.top-right {
+  top: 10rem;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.6s ease-in-out;
+  animation: toast-in-right 0.7s;
+  position: absolute;
+}
+
+.notification {
+  transition: 0.3s ease;
+  position: relative;
+  border-radius: 3px 3px 3px 3px;
+  box-shadow: 0 0 10px #999;
+}
+
+.notification-title {
+  font-weight: 700;
+  font-size: 1.6rem;
+  text-align: left;
+  margin-bottom: 6px;
+  height: 1.8rem;
+}
+
+.notification-image {
+  margin-right: 1.5rem;
+}
+
+.notification-image img {
+  height: 3rem;
+}
+
+.toast {
+  color: #fff;
+  padding: 2rem 1.5rem 1rem 1rem;
+}

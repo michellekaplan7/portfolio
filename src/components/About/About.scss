@@ -20,6 +20,10 @@
         margin: 6rem auto;
         margin-bottom: 0;
       }
+
+      @media screen and (max-width: 270px) {
+        height: 10rem;
+      }
     }
 
     &--text {
