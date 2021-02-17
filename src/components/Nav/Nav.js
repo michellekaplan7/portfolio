@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Scroll from "react-scroll";
 import useWindowSize from "../../hooks/useWindowSize";
-import logo from "../../assets/images/test_logo.jpg";
+import logo from "../../assets/images/mk-logo.png";
 
 const Link = Scroll.Link;
 const scrollDuration = 600;
@@ -35,12 +35,6 @@ const DesktopNav = () => {
     },
   ]);
 
-  const [activeLink, setActiveLink] = useState(null);
-
-  const handleClick = (id) => {
-    setActiveLink(id);
-  };
-
   return (
     <div className="nav-container">
       <nav className="nav-container__nav">
@@ -56,14 +50,13 @@ const DesktopNav = () => {
         {links.map((link) => {
           return (
             <Link
+              activeClass="active"
+              spy={true}
               key={link.id}
-              onClick={() => handleClick(link.id)}
               to={link.to}
               smooth={true}
               duration={scrollDuration}
-              className={
-                link.className + (link.id === activeLink ? " active_link" : "")
-              }
+              className={link.className}
             >
               {link.name}
             </Link>
