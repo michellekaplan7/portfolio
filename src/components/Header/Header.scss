@@ -41,6 +41,13 @@ h1 {
   }
 }
 
+.first-name,
+.last-name {
+  @media screen and (max-width: 270px) {
+    font-size: 3rem;
+  }
+}
+
 h1,
 .sub-heading {
   letter-spacing: 1.1rem;
@@ -57,6 +64,10 @@ h1,
 
   @media screen and (max-width: 390px) {
     text-align: center;
+  }
+
+  @media screen and (max-width: 270px) {
+    font-size: 2rem;
   }
 }
 
@@ -76,11 +87,16 @@ h1,
   top: 42rem;
 }
 
+.social-icons-container a {
+  &:not(:last-child) {
+    margin-right: 5rem;
+  }
+}
+
 .social-icon {
   width: 5rem;
   transform: scale(1);
   transition: transform 0.5s;
-  margin: 0 3rem;
 
   -webkit-animation: fade-in 5s ease-in-out 3s both;
   animation: fade-in 5s ease-in-out 3s both;
@@ -89,6 +105,10 @@ h1,
     cursor: pointer;
     transform: scale(1.2);
     transition: transform 0.5s;
+  }
+
+  @media screen and (max-width: 200px) {
+    width: 3rem;
   }
 }
 
