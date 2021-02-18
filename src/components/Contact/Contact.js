@@ -111,7 +111,7 @@ const Contact = () => {
           <button type="submit">Send</button>
         </form>
 
-        <Toast toastList={list} autoDelete={false} dismissTime={dismissTime} />
+        <Toast toastList={list} autoDelete={true} dismissTime={dismissTime} />
       </section>
     </Element>
   );
