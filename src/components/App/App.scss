@@ -26,6 +26,14 @@
 section {
   padding: 4rem 8rem 8rem;
 
+  @media (max-width: 1000px) {
+    padding: 4rem;
+  }
+
+  @media (max-width: 600px) {
+    padding: 4rem 2rem 8rem;
+  }
+
   @media screen and (max-width: 270px) {
     padding: 4rem 1rem 8rem;
   }
