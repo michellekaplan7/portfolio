@@ -59,7 +59,7 @@ export const projectData = [
       "Responsive Web Design",
     ],
     description:
-      "My portfolio website featuring work experience, projects, skills, and a contact form using the Formspree API. Strong focus on styling with SASS and animations, responsive web design, including conditional rendering of a hamburger menu on smaller window sizes.",
+      "My portfolio website featuring work experience, projects, skills, and a contact form using EmailJS. Strong focus on styling with SASS and animations, responsive web design, including conditional rendering of a hamburger menu on smaller window sizes.",
     repoURL: "https://github.com/michellekaplan7/portfolio",
     liveButtonText: "Visit",
     liveLink: "https://michellekaplan.dev",
