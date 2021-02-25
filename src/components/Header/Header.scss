@@ -98,12 +98,12 @@ h1,
   transform: scale(1);
   transition: transform 0.5s;
 
-  -webkit-animation: fade-in 5s ease-in-out 3s both;
-  animation: fade-in 5s ease-in-out 3s both;
+  -webkit-animation: fade-in 4s ease-in-out 1s both;
+  animation: fade-in 4s ease-in-out 1s both;
 
   &:hover {
     cursor: pointer;
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: transform 0.5s;
   }
 
@@ -123,9 +123,9 @@ h1,
   width: 5rem;
 
   -webkit-animation: blinking 1s linear infinite alternate-reverse,
-    fade-in 6s ease-in-out 6s both;
+    fade-in 5s ease-in-out 1s both;
   animation: blinking 1s linear infinite alternate-reverse,
-    fade-in 6s ease-in-out 6s both;
+    fade-in 5s ease-in-out 1s both;
 
   &:hover {
     cursor: pointer;
