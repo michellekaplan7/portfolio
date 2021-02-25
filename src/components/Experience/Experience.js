@@ -12,21 +12,20 @@ const Experience = () => {
     <Element name="experience">
       <section className="experience">
         <h2 className="section-heading">{"< Experience />"}</h2>
-        <div className="experience__content">
-          <div className="experience__content--work">
-            <h3 className="experience__content--subheading">Work</h3>
-            <WorkCard />
-          </div>
 
-          <div className="experience__content--education">
-            <h3 className="experience__content--subheading">Education</h3>
-            <EducationCard />
-          </div>
+        <div className=" experience__content experience__content--work">
+          <h3 className="experience__content--subheading">// Work</h3>
+          <WorkCard />
+        </div>
 
-          <div className="experience__content--skills">
-            <h3 className="experience__content--subheading">Skills</h3>
-            <Skills />
-          </div>
+        <div className="experience__content experience__content--education">
+          <h3 className="experience__content--subheading">// Education</h3>
+          <EducationCard />
+        </div>
+
+        <div className="experience__content experience__content--skills">
+          <h3 className="experience__content--subheading">// Skills</h3>
+          <Skills />
         </div>
       </section>
     </Element>
