@@ -66,7 +66,7 @@ const Contact = () => {
         <div className="contact__cta">
           <p>
             Send me an email at{" "}
-            <a href="mailto:david.weinstock@me.com">
+            <a href="mailto:michellekaplan.dev@gmail.com">
               michellekaplan.dev@gmail.com
             </a>
           </p>
