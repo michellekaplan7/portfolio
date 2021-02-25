@@ -4,7 +4,7 @@
     align-items: center;
     background-color: $color-white;
     padding: 2rem;
-    border-radius: 22px;
+    border-radius: 3px;
     flex-direction: row-reverse;
 
     @media only screen and (max-width: 415px) {
@@ -17,6 +17,17 @@
 
     &--text {
       margin: 0 auto 0 1rem;
+
+      a {
+        text-decoration-color: transparent;
+        text-underline-offset: 2px;
+        color: $color-primary;
+        transition: 200ms;
+
+        &:hover {
+          text-decoration-color: $color-primary;
+        }
+      }
 
       h3 {
         font-size: 2rem;
@@ -43,10 +54,6 @@
 
       @media only screen and (max-width: 415px) {
         margin: 0 auto;
-      }
-
-      &:hover {
-        cursor: pointer;
       }
     }
   }

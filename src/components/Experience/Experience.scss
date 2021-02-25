@@ -2,14 +2,23 @@
   background-color: $color-grey;
 
   &__content {
+    margin: 0 auto;
+    max-width: 95rem;
+
+    &:not(:last-child) {
+      margin-bottom: 4rem;
+    }
+
+    &--work {
+      margin-top: 4rem;
+    }
+
     &--subheading {
-      margin: 4rem 0 4rem 0;
+      color: $color-primary-dark;
+      margin-bottom: 2rem;
       font-size: 2rem;
       text-transform: uppercase;
-      border: 1px solid $color-black;
       display: inline-block;
-      border-radius: 10px;
-      padding: 1rem;
     }
   }
 }

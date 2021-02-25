@@ -16,16 +16,17 @@ const ProjectCard = (props) => {
           <h3 className="project__content--text--project-name">{props.name}</h3>
           <div className="project__content--text--links">
             <a href={props.repoURL} target="_blank" rel="noreferrer">
-              Github
+              GitHub
             </a>
-
-            <span>
-              {" "}
-              |{" "}
-              <a href={props.liveLink} target="_blank" rel="noreferrer">
-                {props.liveButtonText}
-              </a>
-            </span>
+            {props.liveLink && (
+              <span>
+                {" "}
+                |{" "}
+                <a href={props.liveLink} target="_blank" rel="noreferrer">
+                  {props.liveButtonText}
+                </a>
+              </span>
+            )}
           </div>
           <p className="project__content--description">{props.description}</p>
         </div>

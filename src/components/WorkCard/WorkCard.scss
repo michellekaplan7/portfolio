@@ -2,7 +2,7 @@
   &__content {
     background-color: $color-white;
     padding: 4rem;
-    border-radius: 22px;
+    border-radius: 3px;
 
     &:not(:last-child) {
       margin-bottom: 3rem;
@@ -19,6 +19,17 @@
       }
 
       &-info {
+        a {
+          text-decoration-color: transparent;
+          text-underline-offset: 2px;
+          color: $color-primary;
+          transition: 200ms;
+
+          &:hover {
+            text-decoration-color: $color-primary;
+          }
+        }
+
         h3 {
           font-size: 2rem;
         }
@@ -33,10 +44,6 @@
     &--logo {
       border-radius: 50%;
       height: 12rem;
-
-      &:hover {
-        cursor: pointer;
-      }
     }
 
     &--text {
