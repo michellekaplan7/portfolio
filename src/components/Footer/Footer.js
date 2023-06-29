@@ -4,7 +4,7 @@ import React from "react";
 import { resumeData } from "../../helpers/resumeData";
 
 //resume
-import resume from "../../assets/images/michelle_kaplan_resume.pdf";
+import resume from "../../assets/images/michelle-kaplan-resume-june-2023.pdf";
 
 const Footer = () => {
   return (

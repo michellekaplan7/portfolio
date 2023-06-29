@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import Scroll from "react-scroll";
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 
 import checkIcon from "../../assets/images/check.svg";
 
@@ -9,10 +9,12 @@ import Toast from "../Toast/Toast";
 const Element = Scroll.Element;
 
 const Contact = () => {
+  const form = useRef();
+
   const [message, setMessage] = useState({
     name: "",
     email: "",
-    message: "",
+    message: ""
   });
 
   const [list, setList] = useState([]);
@@ -28,7 +30,7 @@ const Contact = () => {
       title: "Sent",
       description: "Thank you for your message!",
       backgroundColor: "$color-success",
-      icon: checkIcon,
+      icon: checkIcon
     };
 
     setList([...list, toastProperties]);
@@ -41,7 +43,7 @@ const Contact = () => {
       .sendForm(
         "contact_service",
         "contact_form",
-        e.target,
+        form.current,
         "user_oqnKSuXu3Wqz1b4hywWUw"
       )
       .then(
@@ -73,7 +75,7 @@ const Contact = () => {
           <p>or use the form below:</p>
         </div>
 
-        <form onSubmit={sendEmail} className="contact__form">
+        <form className="contact__form" onSubmit={sendEmail} ref={form}>
           <label htmlFor="user_name">Name</label>
           <input
             required

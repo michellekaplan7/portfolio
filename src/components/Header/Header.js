@@ -12,7 +12,7 @@ import gitHub from "../../assets/images/github-icon.svg";
 import resumeIcon from "../../assets/images/resume-icon.svg";
 
 //resume
-import resume from "../../assets/images/michelle_kaplan_resume.pdf";
+import resume from "../../assets/images/michelle-kaplan-resume-june-2023.pdf";
 
 const Link = Scroll.Link;
 const Element = Scroll.Element;

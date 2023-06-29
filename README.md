@@ -3,15 +3,19 @@
 A fully responsive website that showcases my projects and experience.
 
 ## Link to Live Site
+
 - [Click here!](https://michellekaplan.dev)
 
 ## Introduction
+
 This website was built with mobile responsiveness in mind to create a fully responsive website, regardless of what device is being used. I also focused on styling and animations to create a more interactive, aesthetically pleasing site. I also built in a contact form at the bottom, using EmailJS, as a way to get in contact with me! If you have any questions, suggestions, or comments, feel free to reach out. Thanks for visiting!
 
 ## Screenshot
+
 ![mk-portfolio](https://user-images.githubusercontent.com/56200182/108271091-87c16e80-712d-11eb-80a1-54bb9190a02a.png)
 
 ## Directions for Use
+
 - When you first land on the site, you'll notice some fun animations and links that appear. Feel free to visit my Github, LinkedIn, or even view my resume!
 - If you continue down the page, you'll notice different sections, including About, Projects, Experience, and Contact.
 - As you make your way to my projects, feel free to hover over them for a nice surprise! You can also click on the Github and Visit/Demo Video links.
@@ -22,20 +26,21 @@ This website was built with mobile responsiveness in mind to create a fully resp
 - Hope you enjoy!
 
 ## Technology Used
+
 - React
 - React Hooks
 - SASS
 - react-scroll
-- react-particles-js
-- EmailJS
+- react-tsparticles
+- emailjs/browser
 - NPM
 
 ## How to run on a local machine with NPM
 
 1. Shut down any live servers you currently have running (control + c)
 2. Clone down this repo to your desired location
-3. ```cd``` into the new repo directory
-4. Install the library dependencies by running: ```npm install```
+3. `cd` into the new repo directory
+4. Install the library dependencies by running: `npm install`
 5. Then, run `npm start` in your terminal
 6. Go to `http://localhost:8080/` and you should see the page there
 7. Then, you can enter `control + c` in your terminal to stop the server at any time
